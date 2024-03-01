@@ -1,0 +1,136 @@
+
+
+body{
+  margin: 0;
+}
+
+p{
+  color: black;
+  text-align: justify;
+}
+
+.container{
+  padding: 25px;
+  background-color: whitesmoke;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+h1{
+  text-align: center;
+}
+
+/* header styles */
+.navbar{
+  background-color: #3586ff;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5%;
+}
+
+li{
+  list-style: none;
+  display: flex;
+}
+
+.nav-link:hover{
+  color: aqua;
+  transform: scale(1.1);
+}
+
+.nav-link{
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-right{
+  display: flex;
+  gap: 30px;
+}
+
+/* footer styles */
+footer{
+  background-color: #3586ff;
+  padding: 20px;
+}
+
+.social_icon, .menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.down{
+  text-decoration: none;
+  transition: 0.5s ease-out;
+  color: white;
+}
+
+.copyright{
+  text-align: center;
+  color: white;
+}
+
+/* about page design */
+
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* form styles */
+form{
+  margin-top: 50px;
+}
+
+.feedback-input {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #3586ff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus{
+  border: 2px dotted #3586ff;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: none;
+}
+
+/* post creation button styling */
+#create-post{
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  background-color: #3586ff;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+#create-post:hover{
+  transform: scale(1.1);
+}
